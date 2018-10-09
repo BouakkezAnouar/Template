@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 101 Template</title>
+        <!-- Bootstrap -->
+        <link href="../css/bootstrap.css" rel="stylesheet">
+    </head>
+    <body class="container">
+        <div class="row">
+            <form class="form-horizontal">
+                   <div class="form-group">
+                         <label class="control-label col-md-2 " for="nameInput">Your Name</label>
+                       <div class="col-md-10">
+                            <div class="input-group">
+                                  <input class="form-control "  type="text" name="nameInput" placeholder="your name"/>
+                                  <span class="input-group-addon">*</span>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="emailInput">Email</label>
+                        <div class="col-md-10">
+                           <div class="input-group">
+                                <span class="input-group-addon">Email</span>
+                                 <input class="form-control" type="email" name="emailInput" placeholder=" youremail"  />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2">reason</label>
+                        <div class="col-md-10">
+                           <div class="btn-group btn-group-sm" data-toggle="buttons">
+                                <label class="btn btn-success"><input type="radio">the Dude</label>
+                               <label class="btn btn-success"><input type="radio">Donny</label>
+                               <label class="btn btn-success"><input type="radio">Maude</label>
+                               <div class="btn-group btn-group-sm">
+                                   <button class="btn btn-success"  data-toggle="dropdown">other<span class="caret"></span></button>
+                                   <ul class="dropdown-menu" >
+                                       <li><a href="#">Anouar</a></li>
+                                       <li><a href="#">Sami</a></li>
+                                       <li class="divider"></li>
+                                       <li class="disabled"><a href="#">Bannour</a></li>
+
+                                   </ul>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2" >Reason</label>
+                        <div class="col-md-10">
+
+                          <!--  <select class="form-control">
+                                <option>Adoration</option>
+                                <option>Ordering</option>
+                                <option>Complain</option>
+                                <option>I am lost</option>
+                            </select>-->
+                            <div class="dropdown">
+                                <button class="btn btn-success" id="pickButton">Pick one .. </button>
+                                <button class="btn btn-success" data-toggle="dropdown"><span class="caret"></span></button>
+                                <ul class="dropdown-menu" id="dropdownReason" >
+                                    <li><a href="#">Anouar</a></li>
+                                    <li><a href="#">Sami</a></li>
+                                    <li class="divider"></li>
+                                    <li class="disabled"><a href="#">Bannour</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Message</label>
+                       <div class="col-md-10">
+                             <textarea placeholder="your message ici" class="form-control" cols="40" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-10 col-md-offset-2">
+                            <input class="btn btn-success" type="submit" value="Submit">
+                        </div>
+                    </div>
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="../js/bootstrap.js"></script>
+        <script src="../js/test.js"></script>
+    </body>
+</html>

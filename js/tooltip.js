@@ -1,0 +1,9 @@
+$(function(){
+
+
+    $('*').tooltip({
+        placement: "left"
+    });
+
+
+});
